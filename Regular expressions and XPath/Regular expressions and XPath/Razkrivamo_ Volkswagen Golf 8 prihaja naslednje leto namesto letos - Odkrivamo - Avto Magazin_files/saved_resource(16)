@@ -1,0 +1,5 @@
+
+var script = document.createElement('script');
+script.setAttribute('type', 'text/javascript');
+script.setAttribute('src', 'https://ad1.si/v1/00-adverta.asp?advz='+adv_zaloznik+'&advs='+adv_stran);
+document.body.appendChild(script);

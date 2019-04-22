@@ -1,0 +1,1 @@
+var ipromTargets=["https:\/\/www.a1.si\/tv-paketi?utm_campaign=2019_A1_Kombo_Apr&utm_medium=Programmatic_300_600&utm_source=iPROM_Display&utm_content=Paket_Kombo_M"];

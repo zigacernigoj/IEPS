@@ -1,0 +1,17 @@
+(function(w, d, s) {
+  try {
+    d = w.top.document || d; w = w.top.document ? w.top : w;
+  } catch (e) {}
+  var ttag = function() {
+    w.teads.page(63274).placement(68230, {slider: {allow_corner_position: false, allow_top_position: false}, "css":"margin: 0px 0px 10px;","format":"inread","slot":{"minimum":2,"auto":true}}).passback(function passback() {var js = [],
+	s = window.top.document.getElementsByTagName("script")[0];
+js.push(window.top.document.createElement("script"));
+js[0].setAttribute("src","https://revive.adriadigital.si/www/js/passback.js");
+s.parentNode.insertBefore(js[0],s);}).serve();
+  };
+  if (w.teads && w.teads.page) { ttag(); }
+  else if (!w.teadsscript) {
+    s.src = '//a.teads.tv/media/format/v3/teads-format.min.js';
+    s.async = true; s.onload = ttag; w.teadsscript = d.getElementsByTagName('head')[0].appendChild(s);
+  }
+})(window, document, document.createElement('script'));
